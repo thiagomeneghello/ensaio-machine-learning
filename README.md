@@ -12,14 +12,17 @@ O produto final será 8 tabelas avaliando a performance de múltiplas métricas 
 ## Algoritmos ensaiados
 ### Classificação:
 Algoritmos: KNN, Decision Tree, Random Forest e Logistic Regression.
+
 Métricas de performance: Accuracy, Precision, Recall e F1-Score.
 
 ### Regressão:
 Algoritmos: Linear Regression, Decision Tree Regressor, Random Forest Regressor, Polinomial Regression, Linear Regression Lasso, Linear Regression Ridge, Linear Regression Elastic Net, Polinomial Regression Lasso, Polinomial Regression Ridge e Polinomial Regression Elastic Net.
+
 Métricas de performance: R2, MSE, RMSE, MAE e MAPE.
 
 ### Agrupamento:
 Algoritmos: K-Means e Affinity Propagation.
+
 Métricas de performance: Silhouette Score.
 
 ## Ferramentas utilizadas
@@ -30,8 +33,7 @@ Python 3.9 e biblioteca Scikit-learn.
 Para ensaiar os algoritmos de Machine Learning irei escrever os códigos utilizando a linguagem Python. Para treinar cada um dos algoritmos serão testados diferentes valores para os principais parâmetros de ajuste de overfitting e assim observar o resultado final das métricas. Os valores de parâmetros que fizerem os algoritmos alcançarem a melhor performance nos dados de validação serão aqueles escolhidos para definição e uso em dados ainda não visualizados pelo algoritmo (dados de teste).
 
 ## O passo a passo
-Passo 1: Divisão dos dados em treino, teste e validação.
-
+Passo 1: Divisão dos dados em treino, teste e validação./
 Passo 2: Treinamento dos algoritmos com os dados de treinamento, utilizando parâmetros "default".
 
 Passo 3: Medir a performance dos algoritmos treinados com parâmetros "default", utilizando apenas o conjunto de dados de treinamento.
