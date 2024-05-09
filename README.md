@@ -11,9 +11,9 @@ O produto final será 8 tabelas avaliando a performance de múltiplas métricas 
 
 ## Algoritmos ensaiados
 ### Classificação:
-Algoritmos: KNN, Decision Tree, Random Forest e Logistic Regression.
+**Algoritmos:** KNN, Decision Tree, Random Forest e Logistic Regression.
 
-Métricas de performance: Accuracy, Precision, Recall e F1-Score.
+**Métricas de performance:** Accuracy, Precision, Recall e F1-Score.
 
 ### Regressão:
 **Algoritmos:** Linear Regression, Decision Tree Regressor, Random Forest Regressor, Polinomial Regression, Linear Regression Lasso, Linear Regression Ridge, Linear Regression Elastic Net, Polinomial Regression Lasso, Polinomial Regression Ridge e Polinomial Regression Elastic Net.
