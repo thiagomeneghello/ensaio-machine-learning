@@ -66,23 +66,23 @@ Todos os algoritmo de regressão não apresentaram boas métricas de performance
 # Resultados
 ## Ensaio de classificação:
 ### Sobre os dados de treinamento
-![classificacao_treinamento](img/class_train.PNG)
+![classificacao_treinamento](projeto/img/class_train.PNG)
 
 ### Sobre os dados de validação
-![classificacao_validacao](img/class_val.PNG)
+![classificacao_validacao](projeto/img/class_val.PNG)
 
 ### Sobre os dados de teste
-![classificacao_teste]( img/class_test.PNG)
+![classificacao_teste](projeto/img/class_test.PNG)
 ## Ensaio de regressão:
 ### Sobre os dados de treinamento
-![regressao_treinamento]( img/reg_train.PNG)
+![regressao_treinamento](projeto/img/reg_train.PNG)
 ### Sobre os dados de validação
-![regressao_validacao]( img/reg_val.PNG)
+![regressao_validacao]( projeto/img/reg_val.PNG)
 ### Sobre os dados de teste
-![regressao_teste]( img/reg_test.PNG)
+![regressao_teste]( projeto/img/reg_test.PNG)
 ## Ensaio de clusterização:
-![clusterizacao_kmeans]( img/cluster_km.PNG)
-![clusterizacao_affinity_propagation]( img/cluster_ap.PNG)
+![clusterizacao_kmeans]( projeto/img/cluster_km.PNG)
+![clusterizacao_affinity_propagation]( projeto/img/cluster_ap.PNG)
 
 # Conclusão
 Nesse Ensaio de Machine Learning adquiri experiência prática, através de testes, e consegui aprofundar o entendimento sobre o funcionamento de diversos algoritmos de classificação, regressão e clusterização. O ajuste e estudo dos hiperparâmetros de controle são fundamentais para a performance dos algoritmos estar alinhada ao problema de negócio e evitar o estado de overfitting e underfitting. A depender do objetivo de negócio deve-se trabalhar o ajuste para determinada projeção de resultados. A qualidade dos dados trabalhados em cada etapa também é determinante para os resultados.
