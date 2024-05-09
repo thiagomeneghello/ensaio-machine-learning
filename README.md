@@ -31,14 +31,24 @@ Para ensaiar os algoritmos de Machine Learning irei escrever os códigos utiliza
 
 ## O passo a passo
 Passo 1: Divisão dos dados em treino, teste e validação.
+
 Passo 2: Treinamento dos algoritmos com os dados de treinamento, utilizando parâmetros "default".
+
 Passo 3: Medir a performance dos algoritmos treinados com parâmetros "default", utilizando apenas o conjunto de dados de treinamento.
+
 Passo 4: Medir a performance dos algoritmos treinados com parâmetros "default", utilizando o conjunto de dados de validação.
-Passo 5: Definir um range de valores para os principais parâmetros de controle do overfitting e treinar os algoritmos. Visualizar graficamente a alteração de performance de acordo com a mudança de valores dos parâmetros. Definir os melhores valores para cada parâmetro a partir dos resultados das métricas sobre os dados de validação.
+
+Passo 5: Definir um range de valores para os principais parâmetros de controle do overfitting e treinar os algoritmos. Visualizar graficamente a alteração de performance de acordo com a
+mudança de valores dos parâmetros. Definir os melhores valores para cada parâmetro a partir dos resultados das métricas sobre os dados de validação.
+
 Passo 6: Unir os dados de treinamento e validação
+
 Passo 7: Retreinar o algoritmo com a união dos dados de treinamento e validação, utilizando os melhores valores encontrados para os parâmetros de controle do algoritmo.
+
 Passo 8: Medir a performance dos algoritmos treinados com os melhores parâmetros, utilizando o conjunto de dados de teste.
+
 Passo 9: Montar as tabelas com o resultado das métricas sobre os 3 conjuntos de dados.
+
 Passo 10: Avaliar os ensaios e anotar os 3 principais Insights que se destacaram.
 
 
@@ -62,7 +72,7 @@ Todos os algoritmo de regressão não apresentaram boas métricas de performance
 ![classificacao_teste]( img/class_test.PNG)
 ## Ensaio de regressão:
 ### Sobre os dados de treinamento
-![regressao_treinamento]( img/reg_train.png)
+![regressao_treinamento]( img/reg_train.PNG)
 ### Sobre os dados de validação
 ![regressao_validacao]( img/reg_val.PNG)
 ### Sobre os dados de teste
@@ -73,6 +83,7 @@ Todos os algoritmo de regressão não apresentaram boas métricas de performance
 
 # Conclusão
 Nesse Ensaio de Machine Learning adquiri experiência prática, através de testes, e consegui aprofundar o entendimento sobre o funcionamento de diversos algoritmos de classificação, regressão e clusterização. O ajuste e estudo dos hiperparâmetros de controle são fundamentais para a performance dos algoritmos estar alinhada ao problema de negócio e evitar o estado de overfitting e underfitting. A depender do objetivo de negócio deve-se trabalhar o ajuste para determinada projeção de resultados. A qualidade dos dados trabalhados em cada etapa também é determinante para os resultados.
+
 Algoritmos baseados em árvores são sensíveis quanto à profundidade do crescimento e do número de árvores na floresta, fazendo com que a
 escolha correta dos valores desses parâmetros impeçam os algoritmos de entrar no estado de overfitting.
 Os algoritmos de regressão, por outro lado, são sensíveis ao grau do polinômio. Esse parâmetro controla o limite entre o estado de underfitting e overfitting desses algoritmos.
